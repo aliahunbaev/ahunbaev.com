@@ -8,11 +8,11 @@ export default function App() {
       <div className="max-w-xl mx-auto px-4 py-10 space-y-8 font-light text-md font-mono text-gray-900 tracking-wider">
       
       {/* Header */}
-      <header className="flex text-sm justify-between items-center font-regular mb-16">
+      <header className="flex text-sm justify-between items-center font-regular mb-12">
         
       <a href="/" className="block w-8 h-8"><img src="/favicon.png" alt="Home" className="w-full h-full object-contain" /></a>
 
-        <nav className="space-x-4 font-light text-sm uppercase">
+        <nav className="space-x-4 font-medium text-sm uppercase">
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://playfighter.substack.com">writing</a>
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://youtube.com/@ahunbaev">videos</a>
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://instagram.com/alizahunbaev">instagram</a>
