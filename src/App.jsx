@@ -25,7 +25,7 @@ export default function App() {
 
       {/* Intro */}
       <section className="pt-12 space-y-3">
-      <h2 className="uppercase font-medium text-xl mb-6"> what’s up, i’m ali<span className="blinking-underscore"></span></h2>
+      <h2 className="uppercase font-medium text-md mb-6"> what’s up, i’m ali<span className="blinking-underscore"></span></h2>
 
         <p>i’m 18, from chicago.</p>
         <p>currently studying cs @ nyu.</p>
