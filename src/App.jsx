@@ -8,11 +8,11 @@ export default function App() {
       <div className="max-w-xl mx-auto px-4 py-10 space-y-8 font-light text-md font-mono text-gray-900 tracking-wider">
       
       {/* Header */}
-      <header className="flex text-sm justify-between items-center text-md lowercase font-regular mb-16">
+      <header className="flex text-sm justify-between items-center font-regular mb-16">
         
       <a href="/" className="block w-8 h-8"><img src="/favicon.png" alt="Home" className="w-full h-full object-contain" /></a>
 
-        <nav className="space-x-6 font-light uppercase">
+        <nav className="space-x-6 font-light text-sm uppercase">
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://playfighter.substack.com">writing</a>
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://youtube.com/@ahunbaev">videos</a>
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://instagram.com/alizahunbaev">instagram</a>
@@ -85,7 +85,7 @@ export default function App() {
         <div>© 2025 ali ahunbáev <a href="#top" className="inline-block animate-bounce ml-1">↑</a></div>
   
         <div>
-          <a href="https://www.youtube.com/watch?v=UF8uR6Z6KLc" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors duration-200">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors duration-200">
             stay hungry
           </a>
   </div>
