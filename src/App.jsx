@@ -10,12 +10,13 @@ export default function App() {
       {/* Header */}
       <header className="flex text-sm justify-between items-center text-md lowercase font-regular mb-16">
         
-        <a href="/"><div className="bg-red-700 text-white text-xl px-3 py-1">á</div></a>
+      <a href="/" className="block w-8 h-8"><img src="/favicon.png" alt="Home" className="w-full h-full object-contain" /></a>
+
         <nav className="space-x-6 font-light uppercase">
-          <a class = "hover:text-red-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://playfighter.substack.com">writing</a>
-          <a class = "hover:text-red-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://youtube.com/@ahunbaev">videos</a>
-          <a class = "hover:text-red-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://instagram.com/alizahunbaev">instagram</a>
-          <a class = "hover:text-red-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="mailto:alizahunbaev@gmail.com">contact</a>
+          <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://playfighter.substack.com">writing</a>
+          <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://youtube.com/@ahunbaev">videos</a>
+          <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://instagram.com/alizahunbaev">instagram</a>
+          <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="mailto:alizahunbaev@gmail.com">contact</a>
         </nav>
       </header>
 
@@ -33,13 +34,13 @@ export default function App() {
       <section className="pt-12 space-y-6">
         <h2 className="uppercase font-medium mb-6">currently working on:</h2>
         <p>
-          <a href="https://instagram.com/combat.ny" target="_blank" rel="noopener noreferrer" className="text-red-600 underline underline-offset-4">combat</a> – community for builders based in nyc.
+          <a href="https://instagram.com/combat.ny" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline underline-offset-4">combat</a> – community for builders based in nyc.
         </p>
         <p>
-          <a href="https://playfighter.substack.com" target="_blank" rel="noopener noreferrer" className="text-red-600 underline underline-offset-4">playfighter</a> – my thoughts on cultivating strength & joy. you can also find that on <a href="https://youtube.com/@ahunbaev" target="_blank" rel="noopener noreferrer" className="text-red-600 underline underline-offset-4">youtube</a>.
+          <a href="https://playfighter.substack.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline underline-offset-4">playfighter</a> – my thoughts on cultivating strength & joy. you can also find that on <a href="https://youtube.com/@ahunbaev" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline underline-offset-4">youtube</a>.
         </p>
-        <p><span className="text-red-600">what now?</span> – ai tool that turns dreams into an actionable blueprint. launches august.</p>
-        <p><span className="text-red-600">boxing</span> – rookie. training for my first fight. creed (2015) pushed me to sign up.</p>
+        <p><span className="text-blue-600">what now?</span> – ai tool that turns dreams into an actionable blueprint. launches august.</p>
+        <p><span className="text-blue-600">boxing</span> – rookie. training for my first fight. creed (2015) pushed me to sign up.</p>
       </section>
 
 
@@ -70,12 +71,12 @@ export default function App() {
       <section className="pt-12">
         <h2 className="uppercase font-medium mb-6">directory:</h2>
         <div className="flex flex-col space-y-6">
-          <a href="mailto:alizahunbaev@gmail.com" className="text-red-600 hover:underline">contact →</a>
-          <a href="https://instagram.com/alizahunbaev" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline ">instagram →</a>
-          <a href="https://playfighter.substack.com" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">playfighter →</a>
-          <a href="https://combatnewyork.com" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">combat →</a>
-          <a href="https://combatnewyork.com" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">favorites →</a>
-          <a href="https://combatnewyork.com" target="_blank" rel="noopener noreferrer" className="text-red-600 hover:underline">biography →</a>
+          <a href="mailto:alizahunbaev@gmail.com" className="text-blue-600 hover:underline">contact →</a>
+          <a href="https://instagram.com/alizahunbaev" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline ">instagram →</a>
+          <a href="https://playfighter.substack.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">playfighter →</a>
+          <a href="https://combatnewyork.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">combat →</a>
+          <a href="https://combatnewyork.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">favorites →</a>
+          <a href="https://combatnewyork.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">biography →</a>
         </div>
       </section>
       </div>
@@ -84,7 +85,7 @@ export default function App() {
         <div>© 2025 ali ahunbáev <a href="#top" className="inline-block animate-bounce ml-1">↑</a></div>
   
         <div>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="hover:text-red-600 transition-colors duration-200">
+          <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors duration-200">
             stay sharp
           </a>
   </div>
