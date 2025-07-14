@@ -12,13 +12,16 @@ export default function App() {
         
       <a href="/" className="block w-8 h-8"><img src="/favicon.png" alt="Home" className="w-full h-full object-contain" /></a>
 
-        <nav className="space-x-6 font-light text-sm uppercase">
+        <nav className="space-x-4 font-light text-sm uppercase">
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://playfighter.substack.com">writing</a>
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://youtube.com/@ahunbaev">videos</a>
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://instagram.com/alizahunbaev">instagram</a>
           <a class = "hover:text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="mailto:alizahunbaev@gmail.com">contact</a>
         </nav>
       </header>
+
+      
+
 
       {/* Intro */}
       <section className="pt-12 space-y-3">
