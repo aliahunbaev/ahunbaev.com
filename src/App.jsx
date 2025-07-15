@@ -5,7 +5,7 @@ import ToggleSection from "./components/ToggleSection";
 export default function App() {
   return (
     <div>
-      <div className="max-w-xl mx-auto px-4 py-10 space-y-8 font-light text-md font-mono text-gray-900 tracking-wider">
+      <div className="max-w-xl mx-auto px-4 py-10 space-y-8 font-light text-md font-sans text-gray-900 tracking-wider">
       
       {/* Header */}
       <header className="flex text-sm justify-between items-center font-regular mb-12">
@@ -83,7 +83,7 @@ export default function App() {
         </div>
       </section>
       </div>
-      <footer className="mt-20 py-4 text-sm text-left text-gray-500 font-mono uppercase tracking-wide bg-gray-100" >
+      <footer className="mt-20 py-4 text-sm text-left text-gray-500 font-sans uppercase tracking-wide bg-gray-100" >
       <div className="max-w-xl mx-auto px-4 flex justify-between items-center">
         <div>© 2025 ali ahunbáev <a href="#top" className="inline-block animate-bounce ml-1">↑</a></div>
   
