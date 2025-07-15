@@ -88,7 +88,7 @@ export default function App() {
         <div>© 2025 ali ahunbáev <a href="#top" className="inline-block animate-bounce ml-1">↑</a></div>
   
         <div>
-          <a href="https://example.com" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors duration-200">
+          <a href="https://youtu.be/UF8uR6Z6KLc?si=vmcaZlvr0Bf-DJ2F" target="_blank" rel="noopener noreferrer" className="hover:text-blue-600 transition-colors duration-200">
             stay hungry
           </a>
   </div>
