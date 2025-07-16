@@ -11,12 +11,6 @@
   content: "_";
   animation: blink 1.5s step-start infinite;
 }
-
 html {
   scroll-behavior: smooth;
-}
-
-a,
-.underline {
-  @apply underline-offset-4;
 }

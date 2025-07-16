@@ -5,7 +5,7 @@ export default function ToggleSection({ title, children }) {
 
   return (
     <section
-      className={`group border bg-gray-100 text-gray-500 px-4 py-4 ${!open ? "cursor-pointer" : ""}`}
+      className={`group border rounded-lg bg-gray-100 text-gray-500 px-4 py-4 ${!open ? "cursor-pointer" : ""}`}
       onClick={() => {
         if (!open) setOpen(true);
       }}
@@ -27,7 +27,7 @@ export default function ToggleSection({ title, children }) {
         )}
       </div>
 
-      {open && <div className="text-md space-y-8 mt-8">{children}</div>}
+      {open && <div className="text-md space-y-6 mt-6">{children}</div>}
     </section>
   );
 }
