@@ -69,7 +69,6 @@ export default function App() {
         {/* Toggles */}
         <section className=" space-y-4">
         <ToggleSection title="How I Started">
-  <p>For as long as I can remember, I always wanted to be an artist.</p>
   <p>I’ve been drawing my whole life, and I got this identity as an “artist” reinforced by everyone around me.</p>
   <p>It was one of the primary ways I was known. And how I knew myself.</p>
   <p>I’m so lucky this label got thrown on me. It’s so much harder to make stuff when you think you’re “just not creative.”</p>
