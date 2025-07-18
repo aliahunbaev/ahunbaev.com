@@ -8,10 +8,10 @@ export default function App() {
 
         {/* Header */}
         <header className="uppercase flex text-md justify-between items-center font-regular tracking-wider">
-          <a href="/" className="block w-8 h-7">
+          <a href="/" className="block w-6 h-6">
             <img src="/favicon.png" alt="Home" className="w-full h-full object-contain" />
           </a>
-          <nav className="space-x-4">
+          <nav className="space-x-3">
             <a className="text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://playfighter.substack.com">Writing</a>
             <a className="text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://youtube.com/@ahunbaev">Videos</a>
             <a className="text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://instagram.com/alizahunbaev">Instagram</a>
@@ -53,9 +53,9 @@ export default function App() {
           <p>If you'd like to talk about what you're building or anything I share, please <a href="mailto:alizahunbaev@gmail.com" target="_blank" rel="noopener noreferrer" className="text-blue-600">reach out</a>. I always love a good conversation.<br></br></p>
          
           <p></p>
-          <p>Thanks for being here, & take care of yourself.</p>
+          <p>Thanks for being here, take care of yourself.</p>
 
-          <p>Sincerely yours,<br></br>
+          <p>Sincerely,<br></br>
           <a href="https://instagram.com/alizahunbaev" target="_blank" rel="noopener noreferrer" className="text-blue-600">Ali Zafer Ahunbáev</a>
           
           </p>
