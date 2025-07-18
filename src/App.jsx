@@ -35,7 +35,7 @@ export default function App() {
           <p><a href="https://instagram.com/combat.ny" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline underline-offset-4">Combat</a> – a community for builders & artists in NYC. Inspired by Fight Club, Dead Poets Society, and Y Combinator.</p>
           <p><span className="text-blue-600">What Now?</span> – an AI tool that helps turn your ideas into actionable plans.</p>
           <p><span className="text-blue-600">Freelance</span> – helping businesses build a strong & attractive digital presence (web-design, branding, copywriting).</p>
-          <p><span className="text-blue-600">Boxing</span> – training for my first fight, which is scheduled someday in 2026.</p>
+          <p><span className="text-blue-600">Boxing</span> – started training after reading Sun & Steel and watching Creed. First fight 2026.</p>
           <p><a href="https://playfighter.substack.com" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline underline-offset-4">Playfighter</a> - writing letters about the work and what I learn every week. <br></br> 
           If you like to read, you can join the list of people I send them to below:
           </p>
