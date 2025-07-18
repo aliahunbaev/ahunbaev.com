@@ -13,11 +13,11 @@ export default function PlayfighterSubscribe() {
             name="email"
             required
             placeholder="enter your email & press 'subscribe'"
-            className="w-full px-4 py-3 border border-blue-600 rounded-md focus:outline-none focus:ring-1 focus:ring-blue-600"
+            className="w-full px-4 py-3 border border-blue-600 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-600"
           />
           <button
             type="submit"
-            className="w-full px-4 py-3 bg-blue-600 text-white rounded-md font-light tracking-wid hover:opacity-90"
+            className="w-full px-4 py-3 bg-blue-600 text-white rounded-lg font-light tracking-wid hover:opacity-90"
           >
             Read Playfighter
           </button>
