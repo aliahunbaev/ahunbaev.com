@@ -11,7 +11,7 @@ export default function App() {
           <a href="/" className="block w-7 h-7">
             <img src="/favicon.png" alt="Home" className="w-full h-full object-contain" />
           </a>
-          <nav className="space-x-3">
+          <nav className="space-x-6">
             <a className="text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://playfighter.substack.com">Writing</a>
             <a className="text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="https://youtube.com/@ahunbaev">Videos</a>
             <a className="text-blue-600 transition-colors duration-200" target="_blank" rel="noopener noreferrer" href="mailto:alizahunbaev@gmail.com">Contact</a>
