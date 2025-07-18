@@ -26,7 +26,7 @@ export default function App() {
           <p>I’m 18 now, and still think of myself that way.</p>
           <p>I’m currently studying Computer Science at NYU. It’s been my dream to move to New York since I was 15. Couldn’t be happier (or broker).</p>
           <p>I spend most of my time working to create beautiful things. I find this pursuit difficult, fulfilling, and wildly fun.</p>
-          <p>The rest of my attention is split between working out, jazz, shawarma, movies, and girls.</p>
+          <p>The rest of my attention is dvided between working out, jazz, shawarma, movies, and women.</p>
         </section>
 
         {/* Projects */}
