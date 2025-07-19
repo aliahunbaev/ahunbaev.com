@@ -69,7 +69,7 @@ const mockFavorites = [
   {
     id: "9",
     title: "Airpods Pro",
-    action: "buy",
+    action: "use",
     url: "https://www.apple.com/airpods-pro/",
     description:
       "Noise cancellation that changed my focus. Essential for deep work and quality audio consumption.",
@@ -93,14 +93,14 @@ const mockFavorites = [
   {
     id: "12",
     title: "Spotify Premium",
-    action: "buy",
+    action: "use",
     url: "https://www.spotify.com/premium/",
     description:
       "Unlimited music discovery and podcast consumption. Soundtrack to productivity and creativity.",
   },
 ];
 
-const filterActions = ["all", "read", "watch", "listen", "use", "buy"];
+const filterActions = ["all", "read", "watch", "listen", "use"];
 
 export default function Favorites() {
   const [activeFilter, setActiveFilter] = useState("all");
@@ -112,7 +112,7 @@ export default function Favorites() {
   return (
     <Layout>
       <section className="space-y-6">
-        <h2 className="font-semibold tracking-wide text-md uppercase">My favorites - hope you enjoy.</h2>
+        <h2 className="font-semibold tracking-wide text-md uppercase">My favorite things</h2>
         {/* <p className="text-gray-600 pb-10">Museum of cool shit that I fuck with. Hope you enjoy.</p> */}
 
         <div className="flex flex-wrap gap-2 pt-2 pb-4">
