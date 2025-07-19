@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header className="uppercase text-xs sm:text-sm flex justify-between items-center font-regular tracking-wider">
       <Link to="/" className="block w-7 h-7">
-        <img src="/favicon.png" alt="Home" className="w-full h-full object-contain" />
+        <img src="/earth.webp" alt="Home" className="w-full h-full object-contain" />
       </Link>
       <nav className="space-x-3 sm:space-x-6">
         <Link className="text-blue-600 transition-colors duration-200" to="/favorites">Favorites</Link>
