@@ -7,8 +7,6 @@ export default function Home() {
     <Layout>
       {/* Intro */}
       <section className="space-y-6">
-      <img className="rounded-lg" src="photo.webp"></img>
-
 
         <h2 className="font-semibold tracking-wide text-md mb-6 uppercase">What's up, I'm Ali.</h2>
 
@@ -105,6 +103,7 @@ export default function Home() {
 
         </section>
 
+        <img className="rounded-lg" src="photo.webp"></img>
 
 
 
