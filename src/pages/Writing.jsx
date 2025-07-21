@@ -2,6 +2,18 @@ import { writings } from "../data/writings";
 import Layout from "../components/Layout";
 import { useNavigate } from "react-router-dom";
 
+// Pretty date formatter
+function formatDate(dateStr) {
+  const [year, month, day] = dateStr.split("-").map(Number);
+  const localDate = new Date(year, month - 1, day); // months are 0-based
+  return localDate.toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+}
+
+
 export default function Writing() {
   const navigate = useNavigate();
 
@@ -13,11 +25,13 @@ export default function Writing() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {writings.map((essay) => (
             <div
-              key={essay.id}
+              key={essay.slug}
               onClick={() => navigate(`/writing/${essay.slug}`)}
               className="cursor-pointer rounded-lg border border-gray-200 p-5 hover:bg-neutral-100 transition"
             >
-              <div className="text-sm text-gray-500 uppercase mb-1 tracking-wider"> {essay.date} </div>
+              <div className="text-sm text-gray-500 uppercase mb-1 tracking-wider">
+                {formatDate(essay.date)}
+              </div>
               <h3 className="text-blue-600 font-medium text-md mb-1">{essay.title}</h3>
               <p className="text-gray-800 text-sm">{essay.description}</p>
             </div>
