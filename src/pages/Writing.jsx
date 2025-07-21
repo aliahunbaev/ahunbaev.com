@@ -5,14 +5,13 @@ import { useNavigate } from "react-router-dom";
 // Pretty date formatter
 function formatDate(dateStr) {
   const [year, month, day] = dateStr.split("-").map(Number);
-  const localDate = new Date(year, month - 1, day); // months are 0-based
+  const localDate = new Date(year, month - 1, day);
   return localDate.toLocaleDateString(undefined, {
     year: "numeric",
     month: "long",
     day: "numeric",
   });
 }
-
 
 export default function Writing() {
   const navigate = useNavigate();
@@ -21,6 +20,18 @@ export default function Writing() {
     <Layout>
       <section className="space-y-6">
         <h2 className="font-semibold tracking-wide text-md uppercase">Journal & Essays</h2>
+
+        {/* Full-width Substack CTA */}
+        <div className="pt-2 pb-4">
+          <a
+            href="https://playfighter.substack.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block w-full text-center bg-blue-600 hover:bg-blue-700 text-white text-xs font-medium tracking-wider uppercase px-4 py-2 rounded-full transition"
+          >
+            Read weekly letters on Substack
+          </a>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {writings.map((essay) => (
