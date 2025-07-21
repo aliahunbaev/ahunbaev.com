@@ -110,14 +110,17 @@ export default function Home() {
       {/* Directory */}
       <section>
         <h2 className="uppercase font-medium mb-6">Directory:</h2>
-        <div className="flex flex-col space-y-6">
+        <div className="flex flex-col space-y-6 underline-offset-4">
+          <a href="https://playfighter.substack.com" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Newsletter →</a>
+          <a href="/favorites" className="text-blue-600 hover:underline">Favorites →</a>
+          <a href="/writing" className="text-blue-600 hover:underline">Writing →</a>
+          <a href="https://instagram.com/combat.ny" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Combat →</a>
+          <a href="https://youtube.com/@ahunbaev" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">YouTube →</a>
+          <a href="https://instagram.com/alizahunbaev" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">Instagram →</a>
           <a href="mailto:alizahunbaev@gmail.com" className="text-blue-600 hover:underline">Contact →</a>
-          <a href="https://playfighter.substack.com" target="_blank" className="text-blue-600 hover:underline">Playfighter →</a>
-          <a href="https://youtube.com/@ahunbaev" target="_blank" className="text-blue-600 hover:underline">Youtube →</a>
-          <a href="https://instagram.com/alizahunbaev" target="_blank" className="text-blue-600 hover:underline">Instagram →</a>
-          <a href="https://instagram.com/combat.ny" target="_blank" className="text-blue-600 hover:underline">Combat →</a>
         </div>
       </section>
+
     </Layout>
   );
 }
